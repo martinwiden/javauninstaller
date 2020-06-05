@@ -1,5 +1,5 @@
 #!/bin/zsh
-# Made by Martin Widen and Ted Jangius
+# Made by Martin Widen and contributions by Ted Jangius
 # at Linkoping University 2018
 # This script uninstalls Java 7, 8, 9, 10 and 11.
 
