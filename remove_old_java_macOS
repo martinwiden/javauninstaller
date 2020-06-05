@@ -1,7 +1,7 @@
 #!/bin/zsh
 # Made by Martin Widen and contributions by Ted Jangius
 # at Linkoping University 2018
-# This script uninstalls Oracle Java 7 up to 14.
+# This script uninstalls Oracle Java 7 up to 14
 # Add several paths in the array jdkPaths if necessary
 
 worker="Java Uninstaller"
