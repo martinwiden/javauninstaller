@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 # Made by Martin Widen and contributions by Ted Jangius
 # at Linkoping University 2018
 # This script uninstalls Oracle Java 7 up to 14
