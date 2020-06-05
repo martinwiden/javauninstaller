@@ -1,7 +1,8 @@
 #!/bin/zsh
 # Made by Martin Widen and contributions by Ted Jangius
 # at Linkoping University 2018
-# This script uninstalls Oracle Java 7, 8, 9, 10 and 11.
+# This script uninstalls Oracle Java 7 up to 14.
+# Add several paths in the array jdkPaths if necessary
 
 worker="Java Uninstaller"
 javaPluginPath="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin"
@@ -11,7 +12,10 @@ jdkPaths=("jdk1.7"
           "jdk1.8"
           "jdk-9"
           "jdk-10"
-          "jdk-11")
+          "jdk-11"
+          "jdk-12"
+          "jdk-13"
+          "jdk-14")
 
 # Function to check if the file is a symlink or any other existing file.
 pathExists() {
