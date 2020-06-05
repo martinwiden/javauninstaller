@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/zsh
 # Made by Martin Widen and Ted Jangius
 # at Linkoping University 2018
-# This script uninstalls Java 7, 8, 9 and 10.
+# This script uninstalls Java 7, 8, 9, 10 and 11.
 
 worker="Java Uninstaller"
 javaPluginPath="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin"
@@ -10,7 +10,8 @@ javaJdkBasePath="/Library/Java/JavaVirtualMachines"
 jdkPaths=("jdk1.7"
           "jdk1.8"
           "jdk-9"
-          "jdk-10")
+          "jdk-10"
+          "jdk-11")
 
 # Function to check if the file is a symlink or any other existing file.
 pathExists() {
